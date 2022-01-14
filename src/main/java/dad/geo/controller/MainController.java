@@ -47,7 +47,7 @@ import javafx.scene.layout.BorderPane;
 
 	    @FXML
 	    void OncheckIpAction(ActionEvent event) throws Exception {
-	    	System.out.print(geoService.listBreeds(ip.getValue()).getConnection());
+	    	System.out.print(geoService.listBreeds(ip.getValue()).getLatitude());
 	    	System.out.print(geoService.listBreeds(ip.getValue()).getCity());
 	    }
 		

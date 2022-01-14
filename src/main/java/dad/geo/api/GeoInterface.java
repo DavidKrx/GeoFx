@@ -8,11 +8,11 @@ import retrofit2.http.Query;
 interface GeoInterface {
 
 	//@GET("ip_api.php")
-	//public Call<All> ConnectionData(@Path("IP") String IP);
+	//public Call<All> ConnectionData(@Path("ip") String IP);
 	//@GET("ip_api.php?ip={IP}")
-	//public Call<All> ConnectionData(@Path("IP") String IP);
+	//public Call<All> ConnectionData(@Path("ip") String IP);
 	//@GET("ip_api.php?ip={IP}")
-	//public Call<All> ConnectionData(@Query("IP") String IP);
+	//public Call<All> ConnectionData(@Query("ip") String IP);
 	@GET("ip_api.php")
-	public Call<All> ConnectionData(@Query("IP") String IP);
+	public Call<All> ConnectionData(@Query("ip") String IP);
 }
